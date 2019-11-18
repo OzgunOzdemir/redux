@@ -1,10 +1,11 @@
 const UPDATE_USER = 'UPDATE_USER';
 
-const updateUser = (newUser) => {
+const updateUser = (name, surname) => {
     return {
         type: 'UPDATE_USER',
         payload: {
-            data: newUser
+                name: name,
+                surname: surname
         }
     }
     
